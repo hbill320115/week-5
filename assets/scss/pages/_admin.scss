@@ -1,0 +1,72 @@
+
+.arrow-downward{
+    vertical-align: sub;
+    font-size: 18px;
+
+}
+.self-made-page{
+    text-decoration: none;
+    .page-now{
+        background: #198754;
+        color: #fff;
+    }
+    li{
+        width: 32px;
+        height: 32px;
+        border:1px solid #198754;
+        text-align: center;
+        a{
+            line-height: 2;
+            &:hover{
+                background: lightgray;
+                
+            }
+        }
+    }
+}
+.new-admin,.edit-admin{
+    height: 736px;
+    ul{
+        padding-left: 0px;
+        li{
+            list-style-type: none;
+        }
+    }
+}
+
+// NEW admin
+.material-symbols-outlined.warning-mark{
+    color: red;
+}
+// 個人資訊彈出視窗
+.time{
+    font-size: 14px;
+}
+ .small{
+    font-size: 14px;
+    background: #F8F9FA;
+ }
+ .personal-picture{
+    height: 141px;
+    width: 141px;
+ }
+ .personal-arrow.btn{
+    padding: 0;
+ }
+ .Emir-email{
+    font-size: 14px;
+}
+.personalButton{
+    button{
+    padding: 8px 32px;
+    }
+}
+.modal-dialog.personal-dialog{
+    width: 450px;
+}
+.visibility,.edit-pen{
+    cursor: pointer;
+    .material-symbols-outlined:hover{
+            color: #198754;
+    }
+}

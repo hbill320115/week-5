@@ -1,0 +1,137 @@
+.wrap{
+    margin: 0 auto;
+    width: 1280px;
+}
+body{
+    font-family: "Lato",serif;
+    line-height: 1.5;
+    color: #212529;
+}
+*,*::before,*::after{
+    // outline:1px so lid red;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+.container-main{
+    width: 918px;
+}
+.h2{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.375;
+    margin-right: 48px;
+}
+.color-6C757D{
+    color: #6C757D;
+}
+.color-198754{
+    color: #198754;
+  }
+code{
+    color: #198754;
+    font-family: "Roboto Mono",serif;
+    font-size: 14px;
+}
+.list-style-none{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+textarea{
+    resize:none;
+}
+th,td{
+    height: 55px;
+    font-weight: 400;
+    vertical-align:middle;
+}
+thead{
+    th,td{
+        vertical-align: bottom;
+    }
+}
+.time{
+    font-size: 14px;
+  }
+//================================= padding
+@for $i from 0 through 999{
+    .p-#{$i}{
+        padding: $i*4px;
+    } 
+}
+@for $i from 0 through 999{
+    .pl-#{$i}{
+        padding-left: $i*4px;
+    } 
+}
+@for $i from 0 through 999{
+    .py-#{$i}{
+        padding-top: $i*4px;
+        padding-bottom: $i*4px;
+    } 
+}
+@for $i from 0 through 999{
+    .px-#{$i}{
+        padding-right: $i*4px;
+        padding-left: $i*4px ;
+    } 
+}
+@for $i from 0 through 999{
+    .pt-#{$i}{
+        padding-top: $i*4px;
+    } 
+}
+@for $i from 0 through 999{
+    .pb-#{$i}{
+        padding-bottom: $i*4px;
+    } 
+}
+//================================= margin
+@for $i from 0 through 999{
+    .ml-#{$i}{
+        margin-left: $i*4px ;
+    } 
+}
+@for $i from 0 through 999{
+    .mr-#{$i}{
+        margin-right: $i*4px ;
+    } 
+}
+@for $i from 0 through 999{
+    .mb-#{$i}{
+        margin-bottom: $i*4px;
+        } 
+}
+@for $i from 0 through 999{
+    .mt-#{$i}{
+        margin-top: $i*4px ;
+    } 
+}
+.mt-auto{
+    margin-top: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mr-auto{
+    margin-right: auto;
+    
+}
+
+//================================= 字體大小
+@for $i from 0 through 999{
+    .fz-#{$i}{
+        font-size: $i*4px;
+    } 
+}
+
